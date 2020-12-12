@@ -10,14 +10,14 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:programmers-dict-of-answers.helloWorld"
+		"onCommand:programmers-dict-of-answers.getAnswer"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "programmers-dict-of-answers.helloWorld",
-				"title": "Hello World"
+				"command": "programmers-dict-of-answers.getAnswer",
+				"title": "getAnswer: 心诚则灵的许个愿，获取答案吧"
 			}
 		]
 	},
